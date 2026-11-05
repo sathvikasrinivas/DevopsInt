@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-container">
+        <div class="form-header">
+            <h2>Create Account</h2>
+            <p>Join us today! It only takes a minute.</p>
+        </div>
+        
+        <form action="#" method="POST" class="registration-form">
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+            </div>
+
+            <!-- Username -->
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="johndoe123" required>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" required>
+            </div>
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="At least 8 characters" minlength="8" required>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Repeat your password" minlength="8" required>
+            </div>
+
+            <!-- Terms & Conditions -->
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+
+        <div class="form-footer">
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+</body>
+</html>
 
